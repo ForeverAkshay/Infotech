@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="infotech.css">
+    <title>Quiz Game</title>
+</head>
+<body>
+    <div id="quiz-container">
+        <h1>Quiz Game</h1>
+        <div id="question-container"></div>
+        <div id="choices-container"></div>
+        <button id="submit-button" onclick="submitAnswer()">Submit Answer</button>
+        <div id="feedback-container"></div>
+        <div id="timer-container">Time Remaining: <span id="timer">10</span> seconds</div>
+        <div id="score-container">Score: <span id="score">0</span></div>
+        <button id="start-button" onclick="startQuiz()">Start Quiz</button>
+    </div>
+    <script src="infotech.js"></script>
+</body>
+</html>
